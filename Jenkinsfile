@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo/user-management.git'
+                git branch: 'main', url: 'https://github.com/kaojirawat9/user-management-test.git'
             }
         }
 
